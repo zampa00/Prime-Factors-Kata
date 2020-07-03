@@ -7,6 +7,10 @@ public class PrimeFactors {
     public static ArrayList<Integer> generate(int i) {
         ArrayList<Integer> primeFactors = new ArrayList<Integer>();
 
+        if (i % 2 == 0) {
+            primeFactors.add(i);
+        }
+
         return primeFactors;
     }
 
