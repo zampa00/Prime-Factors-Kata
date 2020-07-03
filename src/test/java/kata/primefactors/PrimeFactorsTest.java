@@ -18,18 +18,18 @@ public class PrimeFactorsTest {
     @Test
     public void testTwo() {
         List<Integer> expectedPrimes = Arrays.asList(2);
-        Assert.assertEquals("List should contains 2", expectedPrimes, PrimeFactors.generate(2));
+        Assert.assertEquals("List should contains "+expectedPrimes.toString(), expectedPrimes, PrimeFactors.generate(2));
     }
 
     @Test
     public void testThree() {
         List<Integer> expectedPrimes = Arrays.asList(3);
-        Assert.assertEquals("List should contains 2", expectedPrimes, PrimeFactors.generate(3));
+        Assert.assertEquals("List should contains "+expectedPrimes.toString(), expectedPrimes, PrimeFactors.generate(3));
     }
 
     @Test
     public void testFour() {
         List<Integer> expectedPrimes = Arrays.asList(2, 2);
-        Assert.assertEquals("List should contains 2", expectedPrimes, PrimeFactors.generate(4));
+        Assert.assertEquals("List should contains "+expectedPrimes.toString(), expectedPrimes, PrimeFactors.generate(4));
     }
 }
