@@ -11,7 +11,7 @@ public class PrimeFactors {
             primeFactors.add(2);
             i /= 2;
         }
-        if (i % 3 == 0) {
+        if (i > 1) {
             primeFactors.add(i);
         }
 
