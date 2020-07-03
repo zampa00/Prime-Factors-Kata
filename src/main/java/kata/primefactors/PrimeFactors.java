@@ -15,9 +15,6 @@ public class PrimeFactors {
             }
             primeCandidate++;
         }
-        if (i > 1) {
-            primeFactors.add(i);
-        }
 
         return primeFactors;
     }
