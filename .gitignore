@@ -1,2 +1,4 @@
 /pom.xml
 /Prime-Factors-Kata.iml
+*.class
+/.idea/*
