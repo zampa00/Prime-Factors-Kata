@@ -38,4 +38,10 @@ public class PrimeFactorsTest {
         List<Integer> expectedPrimes = Arrays.asList(5);
         Assert.assertEquals("List should contains "+expectedPrimes.toString(), expectedPrimes, PrimeFactors.generate(5));
     }
+
+    @Test
+    public void testFifteen() {
+        List<Integer> expectedPrimes = Arrays.asList(3, 5);
+        Assert.assertEquals("List should contains "+expectedPrimes.toString(), expectedPrimes, PrimeFactors.generate(15));
+    }
 }
